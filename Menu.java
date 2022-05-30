@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
 /**
- * Escreva uma descrição da classe Menu aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
+ * Brenda Pereira Camara - Matrícula: 22106117-9
+ * Maria Eduarda Wendel Maia - Matrícula: 22105084-2
  */
 public class Menu
 {

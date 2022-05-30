@@ -1,6 +1,9 @@
 import java.util.Arrays;
 import java.util.stream.Stream;
-
+/**
+ * Brenda Pereira Camara - Matrícula: 22106117-9
+ * Maria Eduarda Wendel Maia - Matrícula: 22105084-2
+ */
 public class Cadastro
 {
     Funcionario[] bd = {new Funcionario("Maria", "100.111.111-99", 20, 40, false), new Funcionario("João", "200.111.111-99", 10, 40, false), new Funcionario("Pedro", "300.111.111-99", 15, 40, false), new Funcionario("Bruno", "400.111.111-99", 30, 44, true), new Funcionario("Michael", "500.111.111-99", 10, 40, false)};
@@ -54,7 +57,7 @@ public class Cadastro
     
    public void EditarSalario (String cpfProcurado, double novoSalario) {
         int index = findIndex(bd, cpfProcurado);
-        if(index > 0){
+        if(index >= 0){
             bd[index].setSalario(novoSalario);
             System.out.print("Salário de: " + bd[index].nome + " alterado. \n");
         }

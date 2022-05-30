@@ -1,11 +1,11 @@
 #BlueJ package file
-dependency1.from=Menu
-dependency1.to=Cadastro
+dependency1.from=Cadastro
+dependency1.to=Funcionario
 dependency1.type=UsesDependency
 dependency2.from=Menu
-dependency2.to=Funcionario
+dependency2.to=Cadastro
 dependency2.type=UsesDependency
-dependency3.from=Cadastro
+dependency3.from=Menu
 dependency3.to=Funcionario
 dependency3.type=UsesDependency
 editor.fx.0.height=720
