@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment0.text=\r\n\ Defina\ uma\ classe\ Funcionario,\ sabendo\ que\ todo\ funcion\u00E1rio\ possui\ nome,\r\nCPF,\ valor\ da\ hora\ trabalhada,\ e\ carga\ hor\u00E1ria\ semanal\ (que\ n\u00E3o\ pode\r\nultrapassar\ 44\ horas\ semanais,\ se\ ultrapassar\ o\ valor\ deve\ ser\ fixado\ em\ 44\r\nhoras)\ e\ com\ um\ campo\ booleano\ onde\ true\ significa\ que\ tem\ filhos\ e\ false\ que\r\nn\u00E3o\ possui\ filhos.\ Defina\ os\ atributos\ da\ sua\ classe\ e\ os\ m\u00E9todos\ b\u00E1sicos\r\n(construtor\ parametrizado,\ getters,\ setters\ e\ toString).\ \r\nAl\u00E9m\ disso,\ escreva\ um\ m\u00E9todo\ que\ calcule\ e\ retorne\ o\ valor\ do\ sal\u00E1rio\ do\ funcion\u00E1rio.\r\n\r\nImplemente\ uma\ classe\ Cadastro\ que\ cont\u00E9m\ um\ m\u00E9todo\ main,\ onde\ voc\u00EA\ ir\u00E1\r\ncriar\ um\ vetor\ para\ armazenar\ objetos\ do\ tipo\ Funcionario.\ \r\nInicialize\ o\ vetor\ com\ 5\ objetos\ Funcionario\ instanciados\ de\ forma\ direta,\ passando\ os\ valores\ para\ o\r\nconstrutor.\r\n
+comment1.params=nome\ cpf\ valorHora\ cargaHoraria\ filhos
+comment1.target=Funcionario(java.lang.String,\ java.lang.String,\ double,\ double,\ java.lang.Boolean)
+comment2.params=novoSalario
+comment2.target=void\ setSalario(double)
+comment3.params=
+comment3.target=double\ getSalario()
+comment4.params=
+comment4.target=java.lang.Boolean\ getTemFilhos()
+comment5.params=
+comment5.target=java.lang.String\ getCPF()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
